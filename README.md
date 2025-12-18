@@ -6,14 +6,14 @@
 
 
 Proyecto de análisis musical que convierte datos de Spotify y Last.fm en una gala de premios ficticia: **los Yaneli’s Awards**.  
-Analizamos más de *X* canciones de **Reggaeton, Pop Latino, Funk, Rock Indie y Jazz** entre 2010 y 2024 para decidir ganadores como “Álbum atemporal”, “Artista Top Hits” o “Álbum más sólido”.
+Analizamos casi 2500 canciones de **Reggaeton, Pop Latino, Funk, Rock Indie y Jazz** de los años 2010 y 2024.
 
 ---
 
 ## Objetivo del proyecto
 
 - Construir una **base de datos relacional** en MySQL con información de canciones, artistas, álbumes y géneros.  
-- Integrar datos procedentes de **múltiples CSV** (Spotify + Last.fm) y normalizarlos en un modelo 3FN.  
+- Integrar datos procedentes de **múltiples CSV** (Spotify + Last.fm) y normalizarlos en un modelo.  
 - Diseñar una **gala de premios musicales** basada en métricas objetivas (popularidad, playcount, oyentes, etc.).  
 - Practicar un flujo real de trabajo con **Python (pandas) + SQL + Visual Studio Code + Git/GitHub**.
 
@@ -58,7 +58,7 @@ Este modelo permite responder preguntas como:
 
 ## Tecnologías utilizadas
 
-- **Python 3** – lógica principal del proyecto.  
+- **Python** – lógica principal del proyecto.  
 - **pandas, numpy** – limpieza, consolidación y transformación de datos.  
 - **MySQL + SQLAlchemy** – creación de `musica_db`, normalización y consultas SQL.  
 - **Visual Studio Code** – entorno de desarrollo.  
@@ -69,6 +69,8 @@ Este modelo permite responder preguntas como:
 
 <img width="520" height="212" alt="image" src="https://github.com/user-attachments/assets/4a75b94d-734a-45c7-975f-d04176f7bb03" />
 ---
+
+
 ## Cómo reproducir el proyecto
 
 1. **Clonar el repositorio**
