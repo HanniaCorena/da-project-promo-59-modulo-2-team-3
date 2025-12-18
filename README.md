@@ -77,3 +77,5 @@ Luego se realizó la inserción de los datos consolidados en MySQL siguiendo un 
 
 Las tablas que se generaron se relacionan de la siguiente manera:
 
+<img width="520" height="212" alt="image" src="https://github.com/user-attachments/assets/f48c045c-374e-434c-b9ff-6d69f977aedb" />
+
