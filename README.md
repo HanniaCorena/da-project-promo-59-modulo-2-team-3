@@ -48,6 +48,8 @@ La base de datos `musica_db` contiene 4 tablas principales:
   - `genero_id` (FK → `generos`)  
   - `Popularidad` (INT)
 
+<img width="520" height="212" alt="image" src="https://github.com/user-attachments/assets/4a75b94d-734a-45c7-975f-d04176f7bb03" />
+
 Este modelo permite responder preguntas como:
 
 - ¿Qué artista domina cada género entre 2010 y 2024?  
@@ -67,7 +69,8 @@ Este modelo permite responder preguntas como:
 ---
 ## Estructura del repositorio
 
-<img width="520" height="212" alt="image" src="https://github.com/user-attachments/assets/4a75b94d-734a-45c7-975f-d04176f7bb03" />
+<img width="361" height="360" alt="image" src="https://github.com/user-attachments/assets/e9337de6-ddde-4c89-96b7-cccb174775ea" />
+
 ---
 
 
@@ -86,10 +89,7 @@ Importar el dump: mysql -u root -p musica_db < sql/musica_db_dump.sql
 3. **(Opcional) Regenerar las tablas desde Python**
 
 - Configurar credenciales en `.env` (`MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOST`).  
-
-  <img width="381" height="916" alt="image" src="https://github.com/user-attachments/assets/c91a9903-2c66-4586-ac9d-1448998f97f0" />
-
-
+  
 4. **Explorar los premios**
 En `premiosmusicales.sql` encontrarás consultas que calculan:
 
