@@ -85,15 +85,13 @@ Importar el dump: mysql -u root -p musica_db < sql/musica_db_dump.sql
 
 3. **(Opcional) Regenerar las tablas desde Python**
 
-- Configurar credenciales en `2.env` (`MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOST`).  
-- Ejecutar en orden los notebooks:
+- Configurar credenciales en `.env` (`MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOST`).  
 
-  1. `01_extraccion_consolidacion.ipynb`  
-  2. `02_modelado_mysql.ipynb`  
-  3. `03_premios_yanelis_awards.ipynb`
+  <img width="381" height="916" alt="image" src="https://github.com/user-attachments/assets/c91a9903-2c66-4586-ac9d-1448998f97f0" />
+
 
 4. **Explorar los premios**
-En `03_premios_yanelis_awards.ipynb` encontrarás consultas que calculan:
+En `premiosmusicales.sql` encontrarás consultas que calculan:
 
 - Ganadores por categoría (canción, artista, álbum, género, año).  
 - Tablas de resultados y rankings para la “gala” de los Yaneli’s Awards.
